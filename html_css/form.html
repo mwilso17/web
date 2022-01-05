@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Insert title info here</title>
+  </head>
+  <body>
+
+    <section id="form">
+      <h2>Place Order</h2>
+      <form method="POST" action="place-order.php"> <!--Can also use "GET" method, action is script that runs when you get the data from the user.-->
+        <h4>Address</h4>
+        <input name="address1" placeholder="Address line 1" class="lg-input" /><br>
+        <input name="address2" placeholder="Address line 2" class="lg-input" /><br>
+        <input name="city" placeholder="City" class="sm-input" /><br>
+        <input name="state" placeholder="State" class='sm-input' /><br>
+        <input name="zip" placeholder="Zip Code" class="sm-input" /><br>
+
+        <h4>Ingredients</h4>
+        <input name="ingredient" type="checkbox" value="pepperoni" /> Pepperoni<br>
+        <input name="ingredient" type="checkbox" value="sausage" />Sausage<br>
+        <input name="ingredient" type="checkbox" value="bacon" /> Bacon<br>
+        <input name="ingredient" type="checkbox" value="mushrooms" />Mushrooms<br>
+        <input name="ingredient" type="checkbox" value="green peppers" />Green Peppers<br>
+        <input name="ingredient" type="checkbox" value="onions" />Onions<br>
+
+        <h4>Delivery or Pickup</h4>
+        <input name='deliveryMethod' type='radio' value='delivery' />Delivery<br><!--name stays same for section. value can vary for script purposes.-->
+        <input name='deliveryMethod' type='radio' value='pickup' />Pickup<br>
+      </form>
+    </section>
+
+  </body>
+</html>
