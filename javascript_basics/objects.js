@@ -13,3 +13,10 @@ pizza.cheese = 'extra'
 var cup = {};
 cup['insulated'] = true;
 cup['oz'] = 32;
+
+var snowman = {
+  isSnow: true,
+  color: 'white',
+  madeOfSnowballs: 3,
+  'first name': 'Frosty"'
+}
