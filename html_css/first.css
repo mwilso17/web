@@ -1,0 +1,12 @@
+body  {
+  background-color:aqua;
+  color: green;
+}
+
+h2 {
+  color: red;
+}
+
+#sample h2 {
+  color: honeydew;
+}
