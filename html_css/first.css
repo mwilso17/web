@@ -10,3 +10,7 @@ h2 {
 #sample h2 {
   color: honeydew;
 }
+
+body > header > h2 {
+  background: black;
+}
