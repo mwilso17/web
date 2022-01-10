@@ -13,4 +13,5 @@ h2 {
 
 body > header > h2 {
   background: black;
+  color: blue;
 }
