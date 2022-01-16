@@ -1,3 +1,5 @@
+@import url();  
+
 body  {
   background-color:aqua;
   color: green;
@@ -19,6 +21,7 @@ body > header > h2 {
 
 #main-header {
   border: 3px solid #aaaaaa;
+  text-decoration: line-through;
 }
 
 #top-stories {
@@ -29,4 +32,8 @@ body > header > h2 {
 article img {
   max-width: 100%;
   max-height: 100%;
+}
+
+a:hover {
+  color:black;
 }
