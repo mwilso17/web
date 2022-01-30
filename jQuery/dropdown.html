@@ -2,8 +2,23 @@
 <html>
   <head>
     <title>Insert title info here</title>
+    <link rel='stylesheet' href='dropdown.css'>
   </head>
   <body>
+
+    <header id='main-header'>
+      <h1 id='site-title'>New News!</h1>
+      <ul class='profile-menu'>
+        <li>
+          <a class='profile-menu-trigger' data-trigger='dropdown' href='#'>Logged in as nickb2</a>
+          <ul class='profile-submenu'>
+            <li><a href='#'>My Account</a></li>
+            <li><a href='#'>My settings</a></li>
+            <li><a href='#'>Log out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
 
     <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
     <script src='dropdown.js'></script>
