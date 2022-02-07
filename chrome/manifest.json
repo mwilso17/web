@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube downloader",
+  "version": "1",
+  "web_accessible_resources": [],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["src/loader.js"]
+    }
+  ]
+}
