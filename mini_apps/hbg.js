@@ -46,7 +46,7 @@ function determineWinner(userChoice, computerChoice) {
   }
 
   function playGame() {
-    var promptUserChoice = prompt('Please choose bear, human, or gun')
+    var promptUserChoice = prompt('Please choose bear, human, or gun');
     var userChoice = getUserChoice(promptUserChoice);
     var computerChoice = getComputerChoice();
     console.log(userChoice);
