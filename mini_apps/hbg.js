@@ -19,6 +19,7 @@ function getComputerChoice() {
 }
 
 function determineWinner(userChoice, computerChoice) {
+
   if (userChoice === computerChoice) {
     return 'It is a tie';
   }
