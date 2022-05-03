@@ -8,3 +8,10 @@ h1 {
   color: blueviolet;
   font-size:  40px;
 }
+
+#navbar {
+  color: black !important;
+  background-color: orange !important;
+  font-size: 30px;
+  text-align: right !important;
+}
