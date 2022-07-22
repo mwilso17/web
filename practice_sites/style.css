@@ -3,5 +3,25 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: darkred;
+}
+
+h2 {
+  color: orangered;
+}
+
+h3 {
+  color: yellowgreen;
+}
+
+h4 {
+  color: darkolivegreen;
+}
+
+h5 {
+  color: darkcyan;
+}
+
+h6 {
+  color: darkorchid;
 }
